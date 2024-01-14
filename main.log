@@ -1,0 +1,413 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.5.12)  5 SEP 2023 08:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-05>
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen143
+\lightrulewidth=\dimen144
+\cmidrulewidth=\dimen145
+\belowrulesep=\dimen146
+\belowbottomsep=\dimen147
+\aboverulesep=\dimen148
+\abovetopsep=\dimen149
+\cmidrulesep=\dimen150
+\cmidrulekern=\dimen151
+\defaultaddspace=\dimen152
+\@cmidla=\count193
+\@cmidlb=\count194
+\@aboverulesep=\dimen153
+\@belowrulesep=\dimen154
+\@thisruleclass=\count195
+\@lastruleclass=\count196
+\@thisrulewidth=\dimen155
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count197
+\multirow@dima=\skip51
+\bigstrutjot=\dimen156
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkeyval.tex
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count198
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen157
+\tc@lly=\dimen158
+\tc@urx=\dimen159
+\tc@ury=\dimen160
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen161
+\adjbox@Height=\dimen162
+\adjbox@Depth=\dimen163
+\adjbox@Totalheight=\dimen164
+\adjbox@pwidth=\dimen165
+\adjbox@pheight=\dimen166
+\adjbox@pdepth=\dimen167
+\adjbox@ptotalheight=\dimen168
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count199
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count266
+\@vwid@loff=\dimen169
+\@vwid@roff=\dimen170
+))
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen171
+\captionmargin=\dimen172
+\caption@leftmargin=\dimen173
+\caption@rightmargin=\dimen174
+\caption@width=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count269
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count270
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count271
+\l__pdf_internal_box=\box53
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/conte
+xt/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen179
+\scratchbox=\box54
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen180
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks20
+)
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+
+Overfull \hbox (13.82277pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/10 For each re-sam-ple, cre-ate a new dataset
+ []
+
+
+Overfull \hbox (4.81535pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/10 For each re-sam-ple, re-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+
+Overfull \hbox (3.55214pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 Create a model us-ing the orig-i-nal dataset.
+ []
+
+<figures/wavesoldering-std.pdf, id=1, 1077.38326pt x 354.26855pt>
+File: figures/wavesoldering-std.pdf Graphic file (type pdf)
+<use figures/wavesoldering-std.pdf>
+Package pdftex.def Info: figures/wavesoldering-std.pdf  used on input line 34.
+(pdftex.def)             Requested size: 345.0pt x 113.44392pt.
+<figures/wavesoldering-std-500.pdf, id=2, 1077.38326pt x 354.26855pt>
+File: figures/wavesoldering-std-500.pdf Graphic file (type pdf)
+<use figures/wavesoldering-std-500.pdf>
+Package pdftex.def Info: figures/wavesoldering-std-500.pdf  used on input line 
+39.
+(pdftex.def)             Requested size: 345.0pt x 113.44392pt.
+<figures/wavesoldering-std-1000.pdf, id=3, 1077.38326pt x 354.26855pt>
+File: figures/wavesoldering-std-1000.pdf Graphic file (type pdf)
+<use figures/wavesoldering-std-1000.pdf>
+Package pdftex.def Info: figures/wavesoldering-std-1000.pdf  used on input line
+ 44.
+(pdftex.def)             Requested size: 345.0pt x 113.44392pt.
+<figures/wavesoldering-main-dist.pdf, id=4, 1148.7403pt x 425.02478pt>
+File: figures/wavesoldering-main-dist.pdf Graphic file (type pdf)
+<use figures/wavesoldering-main-dist.pdf>
+Package pdftex.def Info: figures/wavesoldering-main-dist.pdf  used on input lin
+e 52.
+(pdftex.def)             Requested size: 345.0pt x 127.6446pt.
+<figures/wavesoldering-int-dist.pdf, id=5, 1148.7403pt x 641.83478pt>
+File: figures/wavesoldering-int-dist.pdf Graphic file (type pdf)
+<use figures/wavesoldering-int-dist.pdf>
+Package pdftex.def Info: figures/wavesoldering-int-dist.pdf  used on input line
+ 59.
+(pdftex.def)             Requested size: 345.0pt x 192.75758pt.
+[1
+
+{/Users/petergedeck/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pd
+ftex/pdftex.map}] [2 <./figures/wavesoldering-std.pdf> <./figures/wavesoldering
+-std-500.pdf> <./figures/wavesoldering-std-1000.pdf>] [3 <./figures/wavesolderi
+ng-main-dist.pdf> <./figures/wavesoldering-int-dist.pdf>]
+(tables/wavesoldering-BBA.tex) (tables/wavesoldering-BA.tex)
+(tables/wavesoldering-pBBA.tex) (tables/wavesoldering-pBA.tex)
+(tables/wavesoldering-wBA.tex) [4] [5] [6] [7] [8]
+<figures/piston-std.pdf, id=365, 1077.49107pt x 715.61855pt>
+File: figures/piston-std.pdf Graphic file (type pdf)
+<use figures/piston-std.pdf>
+Package pdftex.def Info: figures/piston-std.pdf  used on input line 93.
+(pdftex.def)             Requested size: 276.00105pt x 183.30473pt.
+<figures/piston-std-500.pdf, id=366, 1077.49107pt x 715.61855pt>
+File: figures/piston-std-500.pdf Graphic file (type pdf)
+<use figures/piston-std-500.pdf>
+Package pdftex.def Info: figures/piston-std-500.pdf  used on input line 98.
+(pdftex.def)             Requested size: 276.00105pt x 183.30473pt.
+<figures/piston-std-1000.pdf, id=367, 1077.49107pt x 715.61855pt>
+File: figures/piston-std-1000.pdf Graphic file (type pdf)
+<use figures/piston-std-1000.pdf>
+Package pdftex.def Info: figures/piston-std-1000.pdf  used on input line 103.
+(pdftex.def)             Requested size: 276.00105pt x 183.30473pt.
+
+
+LaTeX Warning: Float too large for page by 74.9142pt on input line 109.
+
+<figures/piston-main-dist.pdf, id=368, 1149.09305pt x 208.21477pt>
+File: figures/piston-main-dist.pdf Graphic file (type pdf)
+<use figures/piston-main-dist.pdf>
+Package pdftex.def Info: figures/piston-main-dist.pdf  used on input line 112.
+(pdftex.def)             Requested size: 345.0pt x 62.51256pt.
+<figures/piston-int-dist.pdf, id=369, 1148.7403pt x 425.02478pt>
+File: figures/piston-int-dist.pdf Graphic file (type pdf)
+<use figures/piston-int-dist.pdf>
+Package pdftex.def Info: figures/piston-int-dist.pdf  used on input line 119.
+(pdftex.def)             Requested size: 345.0pt x 127.6446pt.
+<figures/piston-quadratic-dist.pdf, id=370, 1148.7403pt x 425.02478pt>
+File: figures/piston-quadratic-dist.pdf Graphic file (type pdf)
+<use figures/piston-quadratic-dist.pdf>
+Package pdftex.def Info: figures/piston-quadratic-dist.pdf  used on input line 
+124.
+(pdftex.def)             Requested size: 345.0pt x 127.6446pt.
+<figures/piston-full-dist.pdf, id=371, 1148.7403pt x 425.02478pt>
+File: figures/piston-full-dist.pdf Graphic file (type pdf)
+<use figures/piston-full-dist.pdf>
+Package pdftex.def Info: figures/piston-full-dist.pdf  used on input line 129.
+(pdftex.def)             Requested size: 345.0pt x 127.6446pt.
+
+LaTeX Warning: Float too large for page by 94.44638pt on input line 134.
+
+(tables/piston-BBA.tex
+
+LaTeX Warning: Float too large for page by 83.66805pt on input line 23.
+
+) (tables/piston-BA.tex
+
+LaTeX Warning: Float too large for page by 83.66805pt on input line 23.
+
+) (tables/piston-pBBA.tex
+
+LaTeX Warning: Float too large for page by 83.66805pt on input line 23.
+
+) (tables/piston-pBA.tex
+
+LaTeX Warning: Float too large for page by 83.66805pt on input line 23.
+
+) (tables/piston-wBA.tex
+
+LaTeX Warning: Float too large for page by 83.66805pt on input line 23.
+
+) [9
+
+] [10 <./figures/piston-std.pdf> <./figures/piston-std-500.pdf> <./figures/pist
+on-std-1000.pdf>] [11 <./figures/piston-main-dist.pdf> <./figures/piston-int-di
+st.pdf> <./figures/piston-quadratic-dist.pdf> <./figures/piston-full-dist.pdf>]
+ [12] [13] [14] [15] [16] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 4734 strings out of 476361
+ 88293 string characters out of 5776953
+ 1904248 words of memory out of 5000000
+ 25069 multiletter control sequences out of 15000+600000
+ 517176 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,10n,131p,392b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/petergedeck/Library/Application 
+Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Use
+rs/petergedeck/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></Users/petergedeck/Library/Application Support/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/petergedec
+k/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></Users/petergedeck/Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/petergedeck/Library/Appl
+ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</Users/petergedeck/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></Users/petergedeck/Library/Application Support
+/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/peterged
+eck/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></Users/petergedeck/Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (16 pages, 550582 bytes).
+PDF statistics:
+ 894 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

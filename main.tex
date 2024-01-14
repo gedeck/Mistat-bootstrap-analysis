@@ -1,14 +1,174 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{adjustbox}
+\usepackage{subcaption}
+
+\newcommand{\red}[1]{{\color{red}#1}}
 
 \title{Mistat bootstrap analysis}
 \author{Peter Gedeck}
 \date{August 2023}
 
+
+
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\section{Bootstrap approaches}
+\begin{description}
+    \item[Bootstrap Analysis (BA):] For each resample, create a new dataset by randomly sampling rows from the original dataset with replacement
+    \item[Befitting Bootstrap Analysis (BBA):] For each resample, create a new dataset by randomly sampling rows from each group with replacement
+    \item[Parametric Bootstrap Analysis (pBA):] Create a model using the original dataset. For each resample, replace the outcome with adding randomly sampled residuals (with replacement) to the predicted values from the original model.
+    \item[Parametric Befitting Bootstrap Analysis (pBBA):] For each resample, replace the outcome values for each group with a random values sampled from a normal distribution with mean and standard deviation as the original group.
+    \item[Wild Bootstrap Analysis (wBA):] Create a model using the original dataset. For each resample, multiply the residuals with a random value sampled from a normal distribution $N(0,1)$ and add to the fitted values from the original model.
+\end{description}
+
+\section{Wave soldering dataset}
+\begin{figure}
+    \centering
+    \begin{subfigure}[c]{\textwidth}
+        \includegraphics[width=\linewidth]{figures/wavesoldering-std.pdf}
+        \caption{100 bootstrap samples}
+        \label{fig:wavesoldering-std-100}
+    \end{subfigure}
+    \begin{subfigure}[c]{\textwidth}
+        \includegraphics[width=\linewidth]{figures/wavesoldering-std-500.pdf}
+        \caption{500 bootstrap samples}
+        \label{fig:wavesoldering-std-500}
+    \end{subfigure}
+    \begin{subfigure}[c]{\textwidth}
+        \includegraphics[width=\linewidth]{figures/wavesoldering-std-1000.pdf}
+        \caption{1000 bootstrap samples}
+        \label{fig:wavesoldering-std-1000}
+    \end{subfigure}
+    \caption{Std.dev. of coefficients for wave soldering dataset}
+    \label{fig:wavesoldering-std}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/wavesoldering-main-dist.pdf}
+    \caption{Distribution of main effect coefficient estimates for the wave soldering dataset. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:wavesoldering-main-dist}
+% \end{figure}
+% \begin{figure}
+    \includegraphics[width=\linewidth]{figures/wavesoldering-int-dist.pdf}
+    \caption{Distribution of main effects and interaction coefficient estimates for the wave soldering dataset. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:wavesoldering-main-int}
+\end{figure}
+\subsection{Main effects}
+\begin{itemize}
+    \item Formula: $Data \sim A + B + C + D + E + F + G$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:wavesoldering-main-dist}
+\end{itemize}
+
+\subsection{Interactions}
+\begin{itemize}
+    \item Formula: $Data \sim A + B + C + G + A:B + A:C + A:G + B:C + B:G + C:G + A:B:C + A:B:G + A:C:G + B:C:G + A:B:C:G$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:wavesoldering-main-int}
+\end{itemize}
+
+\subsection{Comparisons}
+\input{tables/wavesoldering-BBA.tex}
+\input{tables/wavesoldering-BA.tex}
+\input{tables/wavesoldering-pBBA.tex}
+\input{tables/wavesoldering-pBA.tex}
+\input{tables/wavesoldering-wBA.tex}
+
+
+\clearpage
+
+\section{Piston simulator}
+\begin{figure}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \includegraphics[width=0.8\linewidth]{figures/piston-std.pdf}
+        \caption{100 bootstrap samples}
+        \label{fig:piston-std-100}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+        \includegraphics[width=0.8\linewidth]{figures/piston-std-500.pdf}
+        \caption{500 bootstrap samples}
+        \label{fig:piston-std-500}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+        \includegraphics[width=0.8\linewidth]{figures/piston-std-1000.pdf}
+        \caption{1000 bootstrap samples}
+        \label{fig:piston-std-1000}
+    \end{subfigure}
+    \caption{Std.dev. of coefficients for piston simulator}
+    \label{fig:piston-std}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/piston-main-dist.pdf}
+    \caption{Distribution of main effect coefficient estimates for the piston simulation. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:piston-main-dist}
+% \end{figure}
+% \begin{figure}
+    \includegraphics[width=\linewidth]{figures/piston-int-dist.pdf}
+    \caption{Distribution of main effects and interaction coefficient estimates for the piston simulation. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:piston-int-dist}
+    \includegraphics[width=\linewidth]{figures/piston-quadratic-dist.pdf}
+    \caption{Distribution of main effects and quadratic coefficient estimates for the piston simulation. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:piston-quadratic-dist}
+    \includegraphics[width=\linewidth]{figures/piston-full-dist.pdf}
+    \caption{Distribution of main effects, interactions, and quadratic coefficient estimates for the piston simulation. 
+        Blue: ols estimate $\pm$ std.dev. 
+        For each bootstrap approach, boxplot: distribution, red: interquartile range, green: mean $\pm$ std.dev.}
+    \label{fig:piston-full-dist}
+\end{figure}
+
+
+\subsection{Main effects}
+\begin{itemize}
+    \item Formula: $seconds \sim x1 + x2 + x3 + x4$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:piston-main-dist}
+\end{itemize}
+
+\subsection{Interactions}
+\begin{itemize}
+    \item Formula: $seconds \sim x1 + x2 + x3 + x1:x2 + x1:x3 + x2:x3$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:piston-int-dist}
+\end{itemize}
+
+\subsection{Quadratic model}
+\begin{itemize}
+    \item Formula: $seconds \sim x1 + x2 + x3 + x1^2 + x2^2 + x3^2$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:piston-quadratic-dist}
+\end{itemize}
+
+\subsection{Full model}
+\begin{itemize}
+    \item Formula: $seconds \sim x1 + x2 + x3 + x1:x2 + x1:x3 + x2:x3 + x1^2 + x2^2 + x3^2$
+    \item Number of bootstrap samples: 100
+    \item Distribution of bootstrap sampled coefficients: Figure~\ref{fig:piston-full-dist}
+\end{itemize}
+
+\subsection{Comparisons}
+
+\input{tables/piston-BBA.tex}
+\input{tables/piston-BA.tex}
+\input{tables/piston-pBBA.tex}
+\input{tables/piston-pBA.tex}
+\input{tables/piston-wBA.tex}
+
 
 \end{document}

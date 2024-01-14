@@ -1,0 +1,12 @@
+mistat
+pandas
+numpy
+jupyter
+jupyterlab
+jupyterlab-lsp
+jedi-language-server
+statsmodels
+matplotlib
+seaborn
+pingouin
+PyPDF2

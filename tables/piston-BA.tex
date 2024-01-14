@@ -1,0 +1,23 @@
+\begin{table}
+\centering
+\caption{BA std. deviation of the regression coefficients for the Piston simulation.}
+\label{tbl:piston-BA}
+\begin{adjustbox}{angle=90}\begin{tabular}{lrrrrrrrrrrrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Main} & \multicolumn{3}{c}{Full} \\
+ & Regr. & BA & Delta & Regr. & BA & Delta \\
+\midrule
+Intercept & \red{0.82342} & \red{0.80394} & \red{-2.4} & \red{1.19664} & \red{1.03789} & \red{-13.3} \\
+x1 & \red{0.95080} & \red{1.18924} & \red{25.1} & \red{0.78772} & \red{0.87550} & \red{11.1} \\
+x2 & \red{0.95080} & \red{0.94900} & \red{-0.2} & \red{0.78772} & \red{0.87109} & \red{10.6} \\
+x3 & \red{0.95080} & \red{0.93570} & \red{-1.6} & \red{0.78772} & \red{0.76117} & \red{-3.4} \\
+x4 & 0.95080 & 0.85582 & -10.0 &  &  &  \\
+x1:x2 &  &  &  & \red{0.96476} & \red{1.03973} & \red{7.8} \\
+x1:x3 &  &  &  & \red{0.96476} & \red{1.00755} & \red{4.4} \\
+x2:x3 &  &  &  & \red{0.96476} & \red{1.00718} & \red{4.4} \\
+I(x1 ** 2) &  &  &  & \red{0.70794} & \red{0.78125} & \red{10.4} \\
+I(x2 ** 2) &  &  &  & 0.70794 & 0.74039 & 4.6 \\
+I(x3 ** 2) &  &  &  & 0.70794 & 0.56505 & -20.2 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}
